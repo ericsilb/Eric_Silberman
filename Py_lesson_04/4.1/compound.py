@@ -1,3 +1,4 @@
+
 def total(r,P,n,t):
     return float((P*((1+(r/n))**(n*t)))/(t*12))
 
