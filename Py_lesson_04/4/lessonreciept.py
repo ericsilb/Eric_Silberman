@@ -1,5 +1,5 @@
 def format(item, price):
-    print("* {:>20} .......     {:<11.3}".format(item, price))
+    print("* {:>20} .......     {:<11.3f}".format(item, price))
 
 item1 = input("Please enter item 1: ")
 price1 = float(input("Please enter price: "))
@@ -18,6 +18,7 @@ print("<<<<<<<<<<_Reciept_>>>>>>>>>>>>")
 format(item1, price1)
 format(item2, price2)
 format(item3, price3)
+
 
 
 format("Subtotal: ", subtotal)
