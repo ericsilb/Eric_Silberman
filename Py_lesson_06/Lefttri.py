@@ -1,3 +1,4 @@
+
 word = input("Please enter a word: ")
 
 def printTri():
