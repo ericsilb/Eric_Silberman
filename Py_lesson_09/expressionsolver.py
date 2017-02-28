@@ -1,4 +1,5 @@
 
+
 equation = input("Eqaution: ")
 equ = equation.split(" ")
 i = 0
