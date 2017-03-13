@@ -1,0 +1,29 @@
+p:not(.torrey) { color: red; }
+body *:not(p) { color: #ffc832; }
+p:nth-child(even){
+    color: #ffc832;
+}
+p:nth-child(odd){
+    color:red;
+}
+td:nth-child(even){
+    background-color: rebeccapurple;
+}
+td:nth-child(odd){
+    background-color: #44ff06;
+}
+
+tr:nth-child(odd) > td:nth-child(even){
+    background-color: #9dce00;
+
+}
+tr:nth-child(odd) > td:nth-child(oddd){
+    background-color: #ce4921;
+
+}
+tr:nth-child(even) > td:nth-child(odd){
+    background-color: #05ffe2;
+}
+tr:nth-child(even) > td:nth-child(even){
+    background-color: #d516ff;
+}
