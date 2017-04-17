@@ -48,6 +48,7 @@ body{
     margin: 20px;
     padding: 20px;
     -webkit-box-ordinal-group: 1;
+    -webkit-box-flex: 1;
 }
 #sideNews {
     border: 1px solid red;
@@ -56,6 +57,7 @@ body{
     padding: 30px;
     background-color: #ed8cff;
     -webkit-box-ordinal-group: 2;
+    -webkit-box-flex: 1;
 }
 #pageFooter{
     text-align: center;
@@ -69,7 +71,7 @@ body{
     -webkit-box-orient: horizontal;
 }
 #topMenu li:hover{
-    -webkit-transform: scale(1.2,1.2);
+    -webkit-transform: scale(1.4,1.4);
     color: yellow;
 }
 #topHeader{
@@ -90,3 +92,12 @@ body{
 #topHeader:hover{
     -webkit-transform: translate(-30px, -40px)rotate(180deg)scale(1.2);
 }
+p:hover {
+    -webkit-transition: -webkit-transform 1s;
+    -webkit-transform: rotate(360deg);
+}
+h2:hover{
+    -webkit-transition: -webkit-transform 1s;
+    -webkit-transform: scale(1.5,1.5);
+}
+
